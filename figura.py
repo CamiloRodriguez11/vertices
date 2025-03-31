@@ -15,7 +15,7 @@ for i in range(f):
     cara = []
     vert = int(input(f"¿Cuántos vértices tiene esta cara?, de 1 a {N}: "))
     if vert > N:
-        print ("vertice invalido")
+        print ("vertices invalidos")
     else:
         for j in range(vert):
             tabla = int(input(f"Ingrese el índice del vértice {j+1}, de 1 a {N}: "))

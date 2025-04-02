@@ -19,9 +19,9 @@ for i in range(f):
         break
     else:
         for j in range(vert):
-            tabla = int(input(f"Ingrese el índice del vértice {j+1}, de 1 a {N}: "))
+            tabla = int(input(f"Ingrese el índice del vértice {j+1}, de 0 a {N-1}: "))
             if tabla < 1 or tabla > N:
-                print(f"Índice inválido. El índice debe estar entre 1 y {N}.")
+                print(f"Índice inválido. El índice debe estar entre 0 y {N-1}.")
                 break
             else:
                 cara.append(tabla) 

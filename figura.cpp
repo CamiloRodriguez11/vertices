@@ -35,10 +35,10 @@ int main() {
             continue;
         }else{
             for (int j = 0; j < tamaños[i]; j++) {
-                cout << "Ingrese el índice del vértice " << j + 1 << ": de 1 a " << N << ": ";
+                cout << "Ingrese el índice del vértice " << j + 1 << ": de 0 a " << N-1 << ": ";
                 cin >> caras[i][j];
                 if (caras[i][j] < 1 || caras[i][j] > N) {
-                    cout << "Índice inválido. El índice debe estar entre 1 y " << N << "." << endl;
+                    cout << "Índice inválido. El índice debe estar entre 0 y " << N-1 << "." << endl;
                     j--; 
                 }
             }
